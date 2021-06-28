@@ -1,0 +1,46 @@
+.row
+{
+  min-height: 600px;
+  max-height: 100%;
+}
+.row ul{
+  padding-left:0px;
+  width: 100%;
+  list-style: none;
+}
+.row ul li{
+  margin-bottom: 40px;
+  padding-left: 30px;
+ line-height: 60px;
+}
+
+.row ul li a{
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.row ul li:hover{
+  background-color: #292f35;
+}
+
+.card-body{
+  
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  box-shadow: .5px .5px 10px grey;
+}
+.card-body:hover{
+  box-shadow: 2px 2px 15px grey;
+}
+
+.bgprimary
+{
+  background-color: rgb(104, 161, 157);
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

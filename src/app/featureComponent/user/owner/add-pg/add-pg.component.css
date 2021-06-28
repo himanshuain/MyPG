@@ -1,0 +1,25 @@
+img
+{
+    margin: 20px auto auto auto;
+    width: 180px;
+    height: 180px;
+    border:2px solid grey ;
+    border-radius: 100%;
+}
+
+.row
+{
+    font-family: sans-serif;
+}
+
+input,textarea,select{
+    border:none;
+    background-color: whitesmoke;
+    border-bottom: 2px solid black;
+}
+input:focus
+{
+    border: none;
+    background-color: none;
+    outline: 0;
+}

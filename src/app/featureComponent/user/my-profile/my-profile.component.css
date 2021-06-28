@@ -1,0 +1,30 @@
+img
+{
+    margin: 20px auto auto auto;
+    width: 200px;
+    height: 180px;
+    border-radius: 100%;
+}
+
+.card
+{
+    max-width: 500px;
+    background-color: black;
+}
+
+input{
+    border:none;
+    background-color: black;
+    color: grey;
+}
+input:focus
+{
+    border: none;
+    background-color: none;
+    outline: 0;
+}
+
+form{
+    background-color: black;
+    color:grey;
+}
